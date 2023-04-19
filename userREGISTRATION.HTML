@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> USER REGISTRATION FORM</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+
+   
+        .border {
+           
+                
+            width: 300px;    
+            padding: 10px;
+            
+            border: 4px SOLID saddlebrown;
+            margin: 5px;
+    
+        }
+    
+        .button{
+            background-color: blueviolet;
+            border-radius: 10px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+    
+            border-top-right-radius: 4px solid black;
+    
+        }
+    
+        .text{
+            border-top-right-radius: 20px;
+            
+    
+        }
+    </style>
+</head>
+
+<body>
+    <H1 align="center"> USER REGISTRATION FORM </H1> <br>
+    <form> 
+        <label for="fname"  style="font-size: larger;"> <b> FIRST NAME </b> </label>&nbsp;
+        <input class="border text"  type="text" name="fname" id="fname"> <br> <br>
+        
+        <label style="font-size: larger;" for="lname"> <b> LAST NAME </b> </label>&nbsp;
+        <input class="border text" type="text" name="lname"> <br> <br>
+
+        <label style="font-size: larger;" for="pass"> <b> PASSWORD </b> </label>&nbsp;
+        <input  class="border text" type="password" name="pass" id="PASS"> <br> <br>
+
+        <label style="font-size: larger;" for="age"> <b> AGE </b> </label>&nbsp;
+        <input  class="border text" type="number" name="age" id="age"> <br> <br>
+
+        <label style="font-size: larger;" for="date"> <b> DATE </b> </label>&nbsp;
+        <input  class="border text" type="date" name="date" id="date"> <br> <br>
+
+         <label style="font-size: larger;" for="email"> <b> EMAIL </b> </label>&nbsp;
+        <input  class="border text" type="email" name="email" id="email"> <br> <br>
+
+
+
+        <fieldset class="border text" >
+            <legend style="font-size: larger;" align="center"> <b> GENDER </b> </legend> <br> <br>
+            <label  for="male"> <b> MALE </b> </label>&nbsp;
+            <input type="radio" value="male" name="male" id="male"> <br> <br>
+
+            <label for="female"> <b> FEMALE </b> </label>&nbsp;
+            <input type="radio" value="female" name="male" id="female"> <br> <br>
+
+            <label for="tg"> <b> TRANSGENDER </b> </label>&nbsp;
+            <input type="radio" VALUE="transgender" name="male" id="tg"> <br> <br>
+
+
+    
+
+        </fieldset> <br> <br>
+
+        <fieldset  class="border text">
+            <legend style="font-size: larger;" align="center"> <b>FILL THE SUBJECT CHOICES </b>  </legend>
+            <label for="maths"> <b> MATHS </b> </label>&nbsp;
+            <input type="checkbox" value="MATHS" name="maths" id="maths"> <br> <br>
+
+            <label for="physics"> <b> PHYSICS </b> </label>&nbsp;
+            <input type="checkbox" value="physics" name="physics" id="physics"> <br> <br>
+
+
+
+        </fieldset> <br> <br>
+
+         
+        <input class="button" type="reset" value="reset" name="reset" value="reset" id="date"> <br> <br>
+
+        <input class="button" type="submit" value="submit" name="submit" value="submit" id="date"> <br> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
